@@ -1,11 +1,13 @@
-package com.musngi.facebookapi;
+package com.musngi.song;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FacebookapiApplication {
+public class SongApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(FacebookapiApplication.class, args);
+        SpringApplication.run(SongApplication.class, args);
     }
+
 }
